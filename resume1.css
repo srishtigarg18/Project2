@@ -13,10 +13,15 @@ table,th,td {
   border-collapse: collapse;
   padding:5px;
 }
-h1
+h1#he1
 {
   text-align:center;
-  font-size: 280%;
+  font-size: 50px;
+  font-family: "Modern No. 20";
+  padding:15px;
+  background-color: lightGrey;
+  margin-block-start:0;
+    margin-block-end:0;
 }
 
 .r1 {
@@ -24,6 +29,8 @@ h1
       border-collapse:collapse;
 
     }
+    td.r1:hover
+    {background-color: Grey;}
     .r2{
       width:33%;
       }
@@ -31,13 +38,16 @@ h1
     border-radius:50%;
   }
 div.r5{
-  height:60px;
-  background-color:lightGrey;
 
+  height:80px;
+  background-color:lightGrey;
+  padding-top:5px;
+text-align:center;
 }
 h3
 {
-  color: DarkSlateGrey;
+  color: DarkSlateGrey  ;
+  font-family: "Modern No. 20";
 }
 table#t01 tr:nth-child(even) {
   border-collapse: collapse;
@@ -64,4 +74,23 @@ height:140px;
 div.r6
 {
     background-color:lightGrey;
+}
+div.r7{
+  background-color: lightGrey;
+  padding: 20px;
+}
+div.d1
+{
+    background-color: MistyRose ;
+    padding: 20px;
+    font-size: 20px;
+}
+img#i1
+{
+  height:80px;
+  width:100px;
+}
+td#t1
+{
+  padding-left: 1020px;
 }
