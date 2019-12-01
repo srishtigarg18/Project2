@@ -5,14 +5,15 @@ img
    width:220px;
    height:240px;
    border-radius:30%;
+
 }
 th{
   text-align:left;
 }
 table,th,td {
-  border-collapse: collapse;
-  padding:5px;
-}
+     border-collapse: collapse;
+     padding:5px;
+   }
 h1#he1
 {
   text-align:center;
@@ -94,3 +95,26 @@ td#t1
 {
   padding-left: 1020px;
 }
+#div1
+{
+  background-color: black;
+  height:150px;
+  margin-top: 20px;
+}
+#btn1
+{
+  margin-right: 15px;
+  margin-left: 670px;
+  margin-top: 50px;
+  background-color:red;
+border: none;
+color: white;
+opacity: 0.6;
+transition: 0.3s;
+cursor: pointer;
+  padding: 16px 32px;
+  text-align: center;
+ font-size: 16px;
+}
+#btn1:hover
+{opacity: 1}
